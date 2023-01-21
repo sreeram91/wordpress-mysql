@@ -17,6 +17,6 @@ jobs:
         run: docker-compose build -p sreeram91/wordpress-mysql -f ./docker-compose.yaml build
       
       - name: push to hub
-        run: docker-compose push sreeram91/wordpress-mysql
+        run: docker-compose push
 
       
